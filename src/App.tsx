@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import AppHead from './components/AppHead'
@@ -12,10 +10,6 @@ import { PageType } from './components/PageType'
 import Contact from './components/Contact'
 
 function App() {
-
-  interface SelectedPage{
-    currentPage : PageType;
-  }
 
   const [selectedPage, setSelectedPage] = useState(PageType.Home);
 
