@@ -22,8 +22,8 @@ const Project = memo(() => {
     <>
     <div className="my-25"/>
 
-    <div className="flex flex-col items-center justify-center left-0 w-screen md">
-        <h3 className="bg-gradient-to-r from-orange-600 to-amber-400 bg-clip-text text-transparent text-center text-4xl max-sm:text-xl font-bold mt-5 p-1">My Game Projects</h3>
+    <div className="flex flex-col items-center justify-center left-0 w-screen">
+        <h3 className="bg-gradient-to-r from-orange-600 to-amber-400 bg-clip-text text-transparent text-center text-4xl max-sm:text-xl font-bold mt-18 p-1">My Game Projects</h3>
         <p className="bg-gradient-to-r from-amber-600 to-amber-300 bg-clip-text text-transparent text-xl max-sm:text-sm font-bold mx-20 mt-5"> 
           Over the past 8 years, I’ve worked on a variety of projects for PC and Android. Feel free to explore some of my work below—enjoy!
         </p>
