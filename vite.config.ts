@@ -7,5 +7,5 @@ export default defineConfig({
 	    react(), // Your framework's plugin
 	    tailwindcss(), // Add the Tailwind CSS plugin here
 	  ],
-	  base:'https://github.com/miqra1612/ramagallery'	
+	  base:'/ramagallery/'	
   });

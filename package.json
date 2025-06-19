@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://github.com/miqra1612/ramagallery",
+  "homepage": "https://miqra1612.github.io/ramagallery/",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "react": "^19.1.0",
