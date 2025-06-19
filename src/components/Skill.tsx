@@ -7,8 +7,8 @@ const Skill = memo(() => {
 
   return (
      <>
-    <div className="flex flex-col items-center justify-center left-0 w-screen h-screen bg-stone-900 min-sm:mt-90 min-sm:mb-80">
-        <h3 className="bg-gradient-to-r from-orange-600 to-amber-400 bg-clip-text text-transparent text-center text-4xl max-sm:text-xl font-bold mt-5 p-1">Skills & Technologies</h3>
+    <div className="flex flex-col items-center justify-center left-0 w-screen bg-stone-900 min-sm:mt-90 min-sm:mb-80">
+        <h3 className="bg-gradient-to-r from-orange-600 to-amber-400 bg-clip-text text-transparent text-center text-4xl max-sm:text-xl font-bold mt-18 p-1">Skills & Technologies</h3>
         <div className="grid grid-cols-2 md:grid-cols-5 xl:grid-cols-8 gap-4 justify-center mt-10 mb-20"> 
             <div className={skillStyle()}> Unity</div>
             <div className={skillStyle()}> C#</div>
