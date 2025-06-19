@@ -20,6 +20,33 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+::-webkit-scrollbar {
+  width: 6px; /* Width of the vertical scrollbar */
+  height: 6px; /* Height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Color of the scrollbar track */
+  border-radius: 6px; /* Optional: rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff7520; /* Color of the scrollbar thumb (draggable part) */
+  border-radius: 6px; /* Optional: rounded corners for the thumb */
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f78736; /* Color of the thumb on hover */
+}
+
+/* For Firefox */
+/* Note: Firefox has limited styling options for scrollbars */
+html::-webkit-scrollbar {
+  scrollbar-color: #ff7520 #000000; /* thumb color track color */
+  scrollbar-width: thin; /* auto | thin | none */
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

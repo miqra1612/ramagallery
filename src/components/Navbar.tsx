@@ -28,7 +28,7 @@ const Navbar: React.FC<NavbarProp> = ({onSettingPage}) => {
 
   return (
     <>
-     <nav className="fixed top-0 left-0 w-full z-50 bg-stone-900 p-4 text-orange-500 shadow-lg">
+     <nav className="fixed top-0 left-0 w-[calc(100%-6px)] z-50 bg-stone-900 p-4 text-orange-500 shadow-lg">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo/Brand */}
         <a href="/" className="bg-gradient-to-r from-orange-600 to-amber-400 bg-clip-text text-transparent text-2xl font-bold">
@@ -74,7 +74,7 @@ const Navbar: React.FC<NavbarProp> = ({onSettingPage}) => {
 
       {/* Collapsible mobile menu */}
       <div
-        className={`md:hidden absolute top-0 left-0 w-full bg-stone-900 p-4 transition-transform duration-300 ease-in-out transform ${
+        className={`md:hidden absolute top-0 left-0 w-[calc(100%-6px)] bg-stone-900 p-4 transition-transform duration-300 ease-in-out transform ${
           isMenuOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
         style={{ zIndex: 1000 }} // Ensure it's above other content
