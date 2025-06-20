@@ -61,7 +61,7 @@ const Navbar: React.FC<NavbarProp> = ({onSettingPage}) => {
             <a href="#" className="hover:text-orange-300 font-bold" onClick={()=> onSettingPage(PageType.GameProject)}>Game Project</a>
           </li>
           <li>
-            <a href="#" className="hover:text-orange-300 font-bold">Web Project</a>
+            <a href="#" className="hover:text-orange-300 font-bold" onClick={()=> onSettingPage(PageType.WebProject)}>Web Project</a>
           </li>
           <li>
             <a href="https://miqra1612.github.io/PiratesTreasureStory/2D%20Adventure%20WebGL/index.html" className="hover:text-orange-300 font-bold">Play Mini Game</a>
@@ -93,7 +93,7 @@ const Navbar: React.FC<NavbarProp> = ({onSettingPage}) => {
             <a href="#" className="block p-2 hover:text-orange-300 rounded" onClick={() => {setIsMenuOpen(false); onSettingPage(PageType.GameProject)}}>Game Project</a>
           </li>
           <li>
-            <a href="#" className="block p-2 hover:text-orange-300 rounded" onClick={() => setIsMenuOpen(false)}>Web Project</a>
+            <a href="#" className="block p-2 hover:text-orange-300 rounded" onClick={() => {setIsMenuOpen(false); onSettingPage(PageType.WebProject)}}>Web Project</a>
           </li>
           <li>
             <a href="https://miqra1612.github.io/PiratesTreasureStory/2D%20Adventure%20WebGL/index.html" className="block p-2 hover:text-orange-300 rounded" onClick={() => setIsMenuOpen(false)}>Play Mini Game</a>

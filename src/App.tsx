@@ -8,6 +8,7 @@ import Project from './components/Project'
 import Footer from './components/Footer'
 import { PageType } from './components/PageType'
 import Contact from './components/Contact'
+import WebProject from './components/WebProject'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
   const homeRef = useRef<HTMLDivElement>(null);
   const skillRef = useRef<HTMLDivElement>(null);
   const gameProjectRef = useRef<HTMLDivElement>(null);
+  const webProjectRef = useRef<HTMLDivElement>(null);
 
   const setfRef = (ref:React.RefObject<HTMLDivElement|null>)=>{
     if(ref.current){
@@ -41,6 +43,9 @@ function App() {
       break;
       case PageType.GameProject:
       setfRef(gameProjectRef);
+      break;
+      case PageType.WebProject:
+      setfRef(webProjectRef);
       break;
     
       default:
@@ -97,6 +102,16 @@ function App() {
               </>
             );
             break;
+          case PageType.WebProject:
+            return(
+            <>
+            <div ref={webProjectRef}>
+              <WebProject/>
+            </div>
+              
+            </>
+          );
+          break;
           case PageType.Contact:
              return(
               <>
