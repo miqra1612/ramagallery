@@ -6,10 +6,6 @@ const WebProject = memo(() => {
     return "mx-auto w-[calc(100%-20%)] aspect-video";
   }
 
-  const potraitImgStyle = ()=>{
-    return " xl:w-80 md:w-70 max-sm:w-65 xl:h-150 md:h-80 max-sm:h-75 rounded-xl mx-auto";
-  }
-
   const titleStyle = ()=>{
     return "bg-gradient-to-r from-orange-600 to-amber-300 bg-clip-text text-transparent text-center text-2xl max-sm:text-xl font-bold  mx-10 mt-10 mb-3 max-sm:mt-5";
   }
