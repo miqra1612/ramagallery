@@ -24,6 +24,9 @@ const Project = memo(() => {
 
   return (
     <>
+    
+
+
     <div className="my-25"/>
 
     <div className="flex flex-col items-center justify-center left-0 w-screen">
@@ -32,13 +35,70 @@ const Project = memo(() => {
           Over the past 8 years, I’ve worked on a variety of projects for PC and Android. Feel free to explore some of my work below—enjoy!
         </p>
 
+
+        <div>
+            <h5 className={titleStyle()}> Magic War Spell Clash - 3D Turn-Based Battle Game </h5>
+                  
+            <div className={landscapeImgStyle()}>       
+              <iframe className="w-full h-full" src="https://www.youtube.com/embed/HViPLmM-EKU?si=Z31occK-KQZfXuWp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <div className="flex justify-center my-5">
+                <button className="bg-gradient-to-r from-orange-700 via-orange-500 to-amber-500 text-white hover:text-lime-200 font-bold rounded-md px-4 py-2" onClick={()=> location.href = "https://play.google.com/store/apps/details?id=com.mirama.magicwar"}> Download to try it</button>
+            </div>  
+        
+        
+
+          <div className="flex flex-col-reverse md:grid md:grid-cols-2 md:gap-5 bg-stone-900">
+              
+              <div className="align-items-center justify-center mx-10 mt-5">
+                <h1 className="bg-gradient-to-r from-orange-600 to-amber-300 bg-clip-text text-transparent text-start text-xl max-sm:text-xl font-bold mb-2 max-sm:mt-2">My Role at Mie Rama Studio </h1>
+
+                <p className={projectPStyle()}>
+                      As part of the development team at Mie Rama Studio, I contributed across multiple areas of the project, including:
+                </p> 
+                  
+                <ul className="text-amber-600 text-start text-xl max-sm:text-sm list-outside list-disc  mx-5 p-5">
+                    <li className="p-2"> Designed and implemented the turn-based combat system, including turn management, spell casting, damage calculation, and battle flow.</li>
+                    <li className="p-2"> Developed the spell and equipment systems, allowing players to collect, equip, and upgrade magical items.</li>
+                    <li className="p-2"> Built the inventory, loot crate, reward, and in-game currency systems.</li>
+                    <li className="p-2"> Implemented character progression, ranking, and league mechanics.</li>
+                    <li className="p-2"> Developed the user interface and connected gameplay systems with the relevant UI components.</li>
+                    <li className="p-2"> Integrated mobile monetization features, including Unity Ads and Google Play in-app purchases.</li>
+                    <li className="p-2"> Structured the codebase using modular and reusable components to make future feature development and maintenance easier following SOLID principle.</li>
+                    <li className="p-2"> Optimized gameplay systems and prepared the project for Android deployment.</li>
+                </ul>
+              </div>
+
+              <div className="align-items-center justify-center mx-10 mt-5">
+                  <h1 className="bg-gradient-to-r from-orange-600 to-amber-300 bg-clip-text text-transparent text-start text-xl max-sm:text-xl font-bold mb-2 max-sm:mt-2">Summary</h1>
+
+                  <p className={projectP2Style()}> 
+                    Magic War: Spell Clash is a mobile fantasy turn-based PvP-style wizard battle game, initially developed for Android, with plans for iOS. The game allows players to build and customize their wizards, collect magical equipment and spells, and compete in strategic battles against AI opponents, with multiplayer planned for future development.
+                  </p>
+                  <p className={projectP2Style()}> 
+                    My role involves developing the core gameplay systems and overall game functionality using Unity and C#. I work on implementing the turn-based combat mechanics, spell-casting system, character progression, inventory, and in-game economy.
+                  </p>
+                  <p className={projectP2Style()}>
+                      The main objective is to create an engaging mobile RPG experience that combines strategic turn-based combat with character collection, equipment progression, and long-term player engagement.
+                  </p>
+
+              </div>
+              
+          </div>
+          
+        </div>
+
+
         <div>
             <h5 className={titleStyle()}> Cryptofights Ascencion - 3D Turn-Based Online Game </h5>
                   
-            <img src="./image/cfsa1.png" alt="" className={landscapeImgStyle()} />
+            <div className={landscapeImgStyle()}>       
+              <iframe className="w-full h-full" src="https://www.youtube.com/embed/6mr2bktw9Kk?si=2Bb5j5qcb95g8kjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
             
             <div className="flex justify-center my-5">
-                <button className="bg-gradient-to-r from-orange-700 via-orange-500 to-amber-500 text-white hover:text-lime-200 font-bold rounded-md px-4 py-2" onClick={()=> location.href = "https://play.google.com/store/apps/details?id=com.fyxgaming.cfsa&pcampaignid=web_share"}> Download to try it</button>
+                <button className="bg-gradient-to-r from-orange-700 via-orange-500 to-amber-500 text-white hover:text-lime-200 font-bold rounded-md px-4 py-2" onClick={()=> location.href = "https://apkpure.com/cryptofights-ascension/com.fyxgaming.cfsa"}> Download to try it</button>
             </div>  
         
         
@@ -88,7 +148,9 @@ const Project = memo(() => {
         <div>
             <h5 className={titleStyle()}> Rocky Rampage: Wreck ’em Up – 2D Action Game </h5>
                   
-            <img src="./image/rr1.png" alt="" className={landscapeImgStyle()} />
+            <div className={landscapeImgStyle()}>       
+              <iframe className="w-full h-full" src="https://www.youtube.com/embed/Bxv4ZSzA-Jk?si=K-aVVEw1AokrHZdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
             
             <div className="flex justify-center my-5">
                 <button className="bg-gradient-to-r from-orange-700 via-orange-500 to-amber-500 text-white hover:text-lime-200 font-bold rounded-md px-4 py-2" onClick={()=> location.href = "https://drive.google.com/file/d/1a5esR5ZLI7g1BFHf7hKcG9WcUo4pq1JH/view?usp=sharing"}> Download to try it</button>
@@ -239,7 +301,9 @@ const Project = memo(() => {
         <div>
             <h5 className={titleStyle()}> Fluffy Rush – Endless Runner Game for Kids (Android) </h5>
                   
-            <img src="./image/fluffy.png" alt="" className={landscapeImgStyle()} />
+            <div className={landscapeImgStyle()}>       
+              <iframe className="w-full h-full" src="https://youtube.com/embed/PWkXmRcspwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
             
             <div className="flex justify-center my-5">
                 <button className="bg-gradient-to-r from-orange-700 via-orange-500 to-amber-500 text-white hover:text-lime-200 font-bold rounded-md px-4 py-2" onClick={()=> location.href = "https://play.google.com/store/apps/details?id=com.MiramaStudio.FluffyRush&pcampaignid=web_share"}> Download to try it</button>
