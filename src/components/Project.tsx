@@ -40,7 +40,7 @@ const Project = memo(() => {
             <h5 className={titleStyle()}> Magic War Spell Clash - 3D Turn-Based Battle Game </h5>
                   
             <div className={landscapeImgStyle()}>       
-              <iframe className="w-full h-full" src="https://www.youtube.com/embed/HViPLmM-EKU?si=Z31occK-KQZfXuWp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe className="w-full h-full" src="https://www.youtube.com/embed/HViPLmM-EKU?si=Z31occK-KQZfXuWp" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             
             <div className="flex justify-center my-5">
@@ -94,7 +94,7 @@ const Project = memo(() => {
             <h5 className={titleStyle()}> Cryptofights Ascencion - 3D Turn-Based Online Game </h5>
                   
             <div className={landscapeImgStyle()}>       
-              <iframe className="w-full h-full" src="https://www.youtube.com/embed/6mr2bktw9Kk?si=2Bb5j5qcb95g8kjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe className="w-full h-full" src="https://www.youtube.com/embed/6mr2bktw9Kk?si=2Bb5j5qcb95g8kjw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             
             <div className="flex justify-center my-5">
@@ -149,7 +149,7 @@ const Project = memo(() => {
             <h5 className={titleStyle()}> Rocky Rampage: Wreck ’em Up – 2D Action Game </h5>
                   
             <div className={landscapeImgStyle()}>       
-              <iframe className="w-full h-full" src="https://www.youtube.com/embed/Bxv4ZSzA-Jk?si=K-aVVEw1AokrHZdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe className="w-full h-full" src="https://www.youtube.com/embed/Bxv4ZSzA-Jk?si=K-aVVEw1AokrHZdc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             
             <div className="flex justify-center my-5">
@@ -302,7 +302,7 @@ const Project = memo(() => {
             <h5 className={titleStyle()}> Fluffy Rush – Endless Runner Game for Kids (Android) </h5>
                   
             <div className={landscapeImgStyle()}>       
-              <iframe className="w-full h-full" src="https://youtube.com/embed/PWkXmRcspwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe className="w-full h-full" src="https://youtube.com/embed/PWkXmRcspwg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             
             <div className="flex justify-center my-5">
